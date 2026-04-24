@@ -3,8 +3,9 @@ const mineflayer = require('mineflayer')
 function startBot() {
 
   const bot = mineflayer.createBot({
-    host: 'YOURSERVER.aternos.me',
-    username: 'AFK_Bot_24x7',
+    host: 'OpenArms-Forever.aternos.me',
+    port: 11881,
+    username: 'Open Arms Forever',
     version: 1.21
   })
 

@@ -5,7 +5,7 @@ function startBot() {
   const bot = mineflayer.createBot({
     host: 'YOURSERVER.aternos.me',
     username: 'AFK_Bot_24x7',
-    version: false
+    version: 1.21
   })
 
   bot.on('login', () => {
